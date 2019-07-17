@@ -14,3 +14,6 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
+
+alias iftop='PATH=/usr/local/sbin:$PATH sudo iftop'
+alias mtr='PATH=/usr/local/sbin:$PATH sudo mtr'
