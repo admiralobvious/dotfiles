@@ -13,6 +13,7 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
 
 alias iftop='PATH=/usr/local/sbin:$PATH sudo iftop'
