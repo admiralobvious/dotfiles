@@ -6,6 +6,7 @@ source $ZSH/oh-my-zsh.sh
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 
+export HOMEBREW_NO_ANALYTICS=1
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY="YES"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/curl/bin:$PATH"
