@@ -44,8 +44,8 @@ parser.add_argument(
 
 
 class Template:
-    def __init__(self, args):
-        self.args = args
+    def __init__(self):
+        self.args = parser.parse_args()
         self.template_path = self.args.template
         self.template = self._load_template()
         self.data = self._load_data(self.args.data)
@@ -89,3 +89,8 @@ class Template:
             with open(self.args.save, "w") as fh:
                 fh.write(t)
         return t
+
+
+if __name__ == "__main__":
+    tmpl = Template()
+    tmpl.render()
