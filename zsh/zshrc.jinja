@@ -1,0 +1,16 @@
+export ZSH="{{ data.zsh.path }}"
+ZSH_THEME="{{ data.zsh.theme }}"
+plugins=({{ data.zsh.plugins | join(' ') }})
+source $ZSH/oh-my-zsh.sh
+
+{% for source in data.source %}
+source {{ source }}
+{% endfor %}
+
+{% for export in data.export %}
+export {{ export }}
+{% endfor %}
+
+{% for alias in data.alias %}
+alias {{ alias }}
+{% endfor %}

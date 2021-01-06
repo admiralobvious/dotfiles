@@ -1,0 +1,6 @@
+{% for k in data.keys() %}
+	{% for i in data[k]|sort %}
+{{ k }} "{{ i }}"
+	{% endfor %}
+
+{% endfor %}

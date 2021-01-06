@@ -1,0 +1,40 @@
+{
+  "environments": {
+    "base": {
+      "zsh": {
+        "plugins": [
+          "git",
+          "kubectl"
+        ],
+        "theme": "robbyrussell"
+      },
+      "export": [
+        "HOMEBREW_NO_ANALYTICS=1",
+        "OBJC_DISABLE_INITIALIZE_FORK_SAFETY=\"YES\"",
+        "PATH=\"/usr/local/sbin:$PATH\"",
+        "PATH=\"/usr/local/opt/curl/bin:$PATH\"",
+        "PATH=\"/usr/local/opt/gnu-getopt/bin:$PATH\"",
+        "PATH=\"/usr/local/opt/gnu-tar/libexec/gnubin:$PATH\"",
+        "PATH=\"/usr/local/opt/gnu-sed/libexec/gnubin:$PATH\""
+      ],
+      "alias": [
+        "iftop=\"PATH=/usr/local/sbin:$PATH sudo iftop\"",
+        "mtr=\"PATH=/usr/local/sbin:$PATH sudo mtr\""
+      ]
+    },
+    "home": {
+      "zsh": {
+        "path": "/Users/alex/.oh-my-zsh"
+      },
+      "source": [
+        "\"/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc\"",
+        "\"/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc\""
+      ]
+    },
+    "work": {
+      "zsh": {
+        "path": "/Users/aferland/.oh-my-zsh"
+      }
+    }
+  }
+}

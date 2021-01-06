@@ -1,0 +1,70 @@
+{
+  "environments": {
+    "base": {
+      "tap": [
+        "homebrew/bundle",
+        "homebrew/cask",
+        "homebrew/cask-fonts",
+        "homebrew/core",
+        "homebrew/services"
+      ],
+      "brew": [
+        "curl",
+        "gawk",
+        "git",
+        "gnu-getopt",
+        "gnu-sed",
+        "gnu-tar",
+        "gpatch",
+        "go",
+        "gzip",
+        "htop",
+        "httpie",
+        "jq",
+        "less",
+        "make",
+        "mas",
+        "mtr",
+        "nmap",
+        "openssh",
+        "pre-commit",
+        "pstree",
+        "python",
+        "ssh-copy-id",
+        "rsync",
+        "screen",
+        "tree",
+        "vim",
+        "watch",
+        "wget"
+      ],
+      "cask": [
+        "docker",
+        "font-hack",
+        "insomnia",
+        "iterm2",
+        "jetbrains-toolbox",
+        "keka",
+        "spotify",
+        "sublime-text",
+        "vlc"
+      ]
+    },
+    "home": {
+      "brew": [
+        "goreleaser",
+        "twine-pypi"
+      ],
+      "cask": [
+        "google-chrome",
+        "google-cloud-sdk",
+        "slack",
+        "transmission"
+      ],
+      "mas": [
+        "Moom, id: 419330170"
+      ]
+    },
+    "work": {}
+  }
+}
